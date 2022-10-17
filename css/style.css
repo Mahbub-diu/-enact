@@ -6898,3 +6898,6 @@ td.left{
   list-style-type: decimal;
   list-style-position: inside;
 }
+.tp-caption{
+  display: none !important;
+}
