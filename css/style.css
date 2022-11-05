@@ -1256,6 +1256,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 }
 .about-text p {
   margin-bottom: 20px;
+  text-align: left;
 }
 .about-text .work-process {
   
@@ -4170,6 +4171,7 @@ margin-bottom: 50px;
   -moz-transition:all 500ms ease;
   -ms-transition:all 500ms ease;
   -o-transition:all 500ms ease;
+  min-height: 250px;
 }
 .why-chooseus.style-2 .item .inner-box {
   border: 0px;
@@ -6839,7 +6841,7 @@ ul.gallery-filter li span {
   margin-right: 10px;
 }
 .custom-about p{
-  text-align: justify;
+  text-align: left;
   margin-bottom: 10px;
 }
 .portfolio-main .table {
