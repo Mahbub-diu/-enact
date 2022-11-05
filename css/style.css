@@ -715,6 +715,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 .main-menu {
   float: left;
   position: relative;
+  width: 100%;
 }
 
 .main-menu.style-2 {
@@ -729,6 +730,9 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   margin: 0;
   position: relative;
   font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+  display: flex;
+  width: 100%;
 }
 .main-menu .navigation li {
   float: left;
@@ -1509,7 +1513,7 @@ padding: 15px 0 40px;
   content: '';
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.85);
+  /* background: rgba(0, 0, 0, 0.85); */
   top: 0;
   left: 0;
   z-index: -1;
@@ -6900,4 +6904,7 @@ td.left{
 }
 .tp-caption{
   display: none !important;
+}
+.d-none{
+display: none;
 }
