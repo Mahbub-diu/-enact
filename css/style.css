@@ -6955,3 +6955,7 @@ iframe{
   width: 100%;
   min-height: 800px;
 }
+
+.mb-20{
+  margin-bottom: 20px;
+}
